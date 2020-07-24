@@ -6,7 +6,9 @@ Energy monitoring based on EnigmaIOT library, using an old [CurrentCost Envir](h
 
 It measures main input current at home and up to 9 individual appliance monitors.
 
-Refer to device manual to get information about how to connect it.
+This code uses my CurrentCost library to decode serial messages from EnviR: https://github.com/gmag11/CurrentCostLib
+
+You can find how to connect it to ESP8266 on this [Hackaday project](https://hackaday.io/project/4133-currentcost-envir-io-board-mod-w-esp8266).
 
 Using a Gateway loaded with [EnigmaIOTGatewayMQTT](https://github.com/gmag11/EnigmaIOT/tree/master/examples/EnigmaIOTGatewayMQTT) example it uses MQTT as interface to send messages and receive commands. Besides standard EnigmaIOT messages and commands this firmware implements these custom ones.
 
