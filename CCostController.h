@@ -1,7 +1,7 @@
-// BlindController.h
+// CCostController.h
 
-#ifndef _BLINDCONTROLLER_h
-#define _BLINDCONTROLLER_h
+#ifndef _CCOSTCONTROLLER_h
+#define _CCOSTCONTROLLER_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
 	#include "arduino.h"
