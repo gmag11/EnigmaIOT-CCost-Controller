@@ -1,0 +1,7 @@
+__vm/
+*.sln
+*.vcxproj
+*.filters
+*.user
+.vs/
+Release/
